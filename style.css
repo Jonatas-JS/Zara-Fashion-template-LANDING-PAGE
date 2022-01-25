@@ -75,7 +75,7 @@ navbar ul li:last-child a {
 .container {
   display: grid;
   grid-template-columns: 1fr 45vw 45vw 1fr;
-  grid-template-rows: 700px 700px 700px 625px 300px;
+  grid-template-rows: 700px 700px 700px 600px 300px;
   align-content: center;
   justify-content: center;
 }
@@ -112,11 +112,11 @@ navbar ul li:last-child a {
 }
 
 /*=============================new-arrivals=============================*/
-.new-arrivals {
+#new-arrivals {
   grid-column: 2/4;
   grid-row: 2/3;
 }
-.text.new-arrivals {
+#new-arrivals .text {
   height: 650px;
   display: flex;
   align-items: flex-end;
@@ -126,7 +126,7 @@ navbar ul li:last-child a {
   background: var(--color-background-grey);
   padding: 4rem;
 }
-.new-arrivals > img {
+#new-arrivals > img {
   position: absolute;
   z-index: -1;
 }
@@ -141,33 +141,33 @@ navbar ul li:last-child a {
 }
 
 /*=============================shop=============================*/
-.shop {
+#shop {
   margin-top: 100px;
   grid-column: 2/4;
   grid-row: 3/4;
 }
-.shop {
+#shop {
   display: flex;
   justify-content: space-around;
 }
-.shop img {
+#shop img {
   height: 450;
 }
-.shop a {
+#shop a {
   color: black;
   font-weight: bold;
 }
-.shop .card-02 {
+#shop .card-02 {
   margin-top: -50px;
 }
 
 /*=============================blog=============================*/
-.blog {
+#blog {
   margin-top: 30px;
   grid-column: 1/5;
   grid-row: 4/5;
 }
-.blog.text {
+#blog .text {
   display: flex;
   justify-content: space-around;
 }
@@ -187,17 +187,17 @@ navbar ul li:last-child a {
 }
 
 /*=============================about=============================*/
-.about {
+#about {
   margin-top: 90px;
   margin-bottom: 300px;
   grid-column: 1/5;
   grid-row: 5/6;
 }
-.about {
+#about {
   display: flex;
   justify-content: space-around;
 }
-.about table tr {
+#about table tr {
   font-size: 1rem;
   text-align: left;
 }
@@ -214,7 +214,7 @@ table tbody td a {
   color: grey;
 }
 
-.about input{
+#about input{
   margin-top: 20px;
   border: none;
   background: white;
@@ -223,7 +223,7 @@ table tbody td a {
   padding: 1rem;
 }
 
-.about button {
+#about button {
   border-style: none;
   font-family: 'Cormorant Garamond', serif;
   font-weight: bold;
