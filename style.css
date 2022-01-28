@@ -75,7 +75,7 @@ navbar ul li:last-child a {
 .container {
   display: grid;
   grid-template-columns: 1fr 45vw 45vw 1fr;
-  grid-template-rows: 700px 700px 700px 740px 300px;
+  grid-template-rows: 100vh 100vh 100vh 100vh 300px;
   align-content: center;
   justify-content: center;
 }
@@ -119,7 +119,7 @@ navbar ul li:last-child a {
   grid-row: 2/3;
 }
 #new-arrivals .text {
-  height: 650px;
+  height: 600px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -145,8 +145,8 @@ navbar ul li:last-child a {
 
 /*=============================shop=============================*/
 #shop {
+  height: calc(100vh - 30vh);
   margin-top: 100px;
-  padding: 120px 0 0 0;
   grid-column: 2/4;
   grid-row: 3/4;
 }
@@ -206,7 +206,7 @@ navbar ul li:last-child a {
   text-align: left;
 }
 table thead th {
-  padding: 1rem 2rem;
+  padding: 0 2rem;
   text-align: left;
 }
 table tbody td {
